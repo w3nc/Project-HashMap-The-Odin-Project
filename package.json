@@ -1,26 +1,27 @@
 {
-  "name": "project-linked-lists-the-odin-project",
+  "name": "project-hashmap-the-odin-project",
   "version": "1.0.0",
-  "description": "Linked list practice from The Odin Project: a Node class and a LinkedList class covering the assignment's required and extra-credit methods.",
-  "main": "src/modules/linkedList.js",
+  "description": "Hash map and hash set practice from The Odin Project: a HashMap class that hashes keys into its own bucket array, grows and rehashes past a 0.75 load factor, plus the HashSet built on top of it.",
+  "main": "src/modules/hashMap.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "demo": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON src/main.js"
+    "demo": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/w3nc/Project-Linked-Lists-The-Odin-Project.git"
+    "url": "git+https://github.com/w3nc/Project-HashMap-The-Odin-Project.git"
   },
   "keywords": [
-    "linked-list",
+    "hashmap",
+    "hash-set",
     "data-structures",
     "the-odin-project"
   ],
   "bugs": {
-    "url": "https://github.com/w3nc/Project-Linked-Lists-The-Odin-Project/issues"
+    "url": "https://github.com/w3nc/Project-HashMap-The-Odin-Project/issues"
   },
-  "homepage": "https://github.com/w3nc/Project-Linked-Lists-The-Odin-Project#readme",
+  "homepage": "https://github.com/w3nc/Project-HashMap-The-Odin-Project#readme",
   "devDependencies": {
     "@babel/core": "^8.0.6",
     "@babel/preset-env": "^8.0.6",
