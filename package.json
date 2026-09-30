@@ -1,0 +1,30 @@
+{
+  "name": "project-linked-lists-the-odin-project",
+  "version": "1.0.0",
+  "description": "Linked list practice from The Odin Project: a Node class and a LinkedList class covering the assignment's required and extra-credit methods.",
+  "main": "src/modules/linkedList.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "demo": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3nc/Project-Linked-Lists-The-Odin-Project.git"
+  },
+  "keywords": [
+    "linked-list",
+    "data-structures",
+    "the-odin-project"
+  ],
+  "bugs": {
+    "url": "https://github.com/w3nc/Project-Linked-Lists-The-Odin-Project/issues"
+  },
+  "homepage": "https://github.com/w3nc/Project-Linked-Lists-The-Odin-Project#readme",
+  "devDependencies": {
+    "@babel/core": "^8.0.6",
+    "@babel/preset-env": "^8.0.6",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2"
+  }
+}
